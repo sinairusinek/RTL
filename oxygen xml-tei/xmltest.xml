@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="/Applications/oxygen/frameworks/tei/xml/tei/css/tei_oxygen.css"?>
+<?xml-stylesheet type="text/css" href="csstest.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<!--    just as a reminder: command+shift+comma  is how you comment out. 
+      command+e is to create element, 
+      option+return is for attributes></>-->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body xml:lang="heb">
+         <div type="seder">
+            <head>סדר נזיקין</head>
+            <div type="tract">
+               <head>משנה - מסכת אבות </head>
+               <div type="chapter">
+
+                  <head> מסכת אבות פרק א</head>
+                  <p><label> א,א</label>  <persName>משה</persName> קיבל תורה מסיניי, ומסרה
+                        ל<persName>יהושוע</persName>, ו<persName>יהושוע</persName>
+                        ל<orgName>זקנים</orgName>, ו<orgName>זקנים</orgName>
+                        ל<orgName>נביאים</orgName>, ו<orgName>נביאים</orgName> מסרוה ל<persName>אנשי
+                           <orgName>כנסת הגדולה</orgName></persName>.  ו<orgName>הן</orgName> אמרו
+                     שלושה דברים:  היו מתונים בדין, והעמידו תלמידים הרבה, ועשו סייג לתורה.</p>
+
+                  <p><label>א,ב</label>  <persName>שמעון הצדיק</persName> היה משיירי <persName>אנשי
+                           <orgName>כנסת הגדולה</orgName></persName>.  <persName>הוא</persName> היה
+                     אומר, על שלושה דברים העולם עומד--על התורה, ועל העבודה, ועל גמילות החסדים.</p>
+
+                  <p><label>א,ג</label>  <persName>אנטיגנוס איש
+                        <placeName>סוכו</placeName></persName> קיבל מ<persName>שמעון
+                        הצדיק</persName>.  <persName>הוא</persName> היה אומר, אל תהיו כעבדים המשמשין
+                     את הרב, על מנת לקבל פרס, אלא הוו כעבדים המשמשין את הרב, על מנת שלא לקבל פרס;
+                     ויהי מורא שמיים עליכם.</p>
+
+                  <p><label>א,ד</label>  <persName>יוסי בן יועזר איש
+                        <placeName>צרידה</placeName></persName> ו<persName>יוסף בן יוחנן איש
+                           <placeName>ירושלים</placeName></persName> קיבלו
+                     <persName>ממנו</persName>.  <persName>יוסי בן יועזר איש
+                           <placeName>צרידה</placeName></persName> אומר, יהי ביתך בית ועד לחכמים;
+                     והוי מתאבק בעפר רגליהם, ושותה בצמא את דבריהם.</p>
+
+                  <p><label>א,ה</label>  <persName>יוסי בן יוחנן איש
+                        <placeName>ירושלים</placeName></persName> אומר, יהי ביתך פתוח לרווחה, ויהיו
+                     עניים בני ביתך.  ואל תרבה שיחה עם האישה--באשתו <persName>אמרו</persName>, קל
+                     וחומר באשת חברו; מכאן <persName>אמרו חכמים</persName>, כל המרבה שיחה עם
+                     האישה--גורם רעה לעצמו, ובטיל מדברי תורה, וסופו יירש גיהינם.</p>
+
+                  <p><label>א,ו</label>  <persName>יהושוע בן פרחיה</persName> ו<persName>ניתאי
+                           <placeName>הארבלי</placeName></persName> קיבלו <persName>מהם</persName>. 
+                        <persName>יהושוע בן פרחיה</persName> אומר, עשה לך רב, וקנה לך חבר; והוי דן
+                     את כל האדם לכף זכות.</p>
+
+                  <p><label>א,ז</label>  <persName>ניתאי <placeName>הארבלי</placeName></persName>
+                     אומר, הרחק משכן רע, ואל תתחבר לרשע; ואל תתייאש מן הפורענות.</p>
+
+                  <p><label>א,ח</label>  <persName>יהודה בן טבאי</persName> ו<persName>שמעון בן
+                        שטח</persName> קיבלו מהם.  <persName>יהודה בן טבאי</persName> אומר, אל תעש
+                     עצמך כעורכי הדיינים.  וכשיהיו בעלי הדין עומדין לפניך, יהיו בעיניך כרשעים;
+                     וכשנפטרים מלפניך, יהיו בעיניך כזכאים, שקיבלו עליהן את הדין.</p>
+
+                  <p><label>א,ט</label>  <persName>שמעון בן שטח</persName> אומר, הוי מרבה לחקור את
+                     העדים; והוי זהיר בדבריך, שמא מתוכן ילמדו לשקר.</p>
+
+                  <p><label>א,י</label>  <persName>שמעיה</persName> ו<persName>אבטליון</persName>
+                     קיבלו מהם.  <persName>שמעיה</persName> אומר, אהוב את המלאכה, ושנוא את הרבנות;
+                     ואל תתוודע לרשות.</p>
+
+                  <p><label>א,יא</label>  <persName>אבטליון</persName> אומר, חכמים, היזהרו
+                     בדבריכם--שמא תחובו חובת גלות, ותגלו למקום המים הרעים, וישתו התלמידים הבאים
+                     אחריכם וימותו, ונמצא שם שמיים מתחלל.</p>
+
+                  <p><label>א,יב</label>  <persName>הלל</persName> ו<persName>שמאי</persName> קיבלו
+                     מהם.  <persName>הלל</persName> אומר, הוי כ<persName ana="mentioned">תלמידיו של
+                           <persName ana="mentioned">אהרון</persName></persName>--אוהב שלום ורודף
+                     שלום, אוהב את הברייות ומקרבן לתורה.  [יג] <persName>הוא</persName> היה אומר,
+                        <span xml:lang="arc">נגד שמא אבד שמא, דילא מוסיף יסוף, ודילא יליף קטלא חייב,
+                        ודישתמש בתגא חלף</span>.</p>
+
+                  <p><label>א,יג</label>  [יד] <persName>הוא</persName> היה אומר, אם אין אני לי, מי
+                     לי; וכשאני לעצמי, מה אני; ואם לא עכשיו, אימתיי.</p>
+
+                  <p><label>א,יד</label>  [טו] <persName>שמאי</persName> אומר, עשה תורתך קבע, אמור
+                     מעט ועשה הרבה; והוי מקביל את כל האדם, בסבר פנים יפות.</p>
+
+                  <p><label>א,טו</label>  [טז] <persName>רבן גמליאל</persName> אומר, עשה לך רב,
+                     והסתלק מן הספק; ואל תרבה לעשר אומדות.</p>
+
+                  <p><label>א,טז</label>  [יז] <persName>שמעון <persName>בנו</persName></persName>
+                     אומר, כל ימיי גדלתי בין החכמים, ולא מצאתי לגוף טוב אלא שתיקה; ולא המדרש הוא
+                     העיקר, אלא המעשה; וכל המרבה דברים, מביא חטא.</p>
+
+                  <p><label>א,יז</label>  [יח] <persName>רבן שמעון בן גמליאל</persName> אומר, על
+                     שלושה דברים העולם קיים--על הדין, ועל האמת, ועל השלום. </p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

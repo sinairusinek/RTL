@@ -1,0 +1,25 @@
+@media oxygen {
+    body {
+        unicode-bidi:embed;
+        direction:rtl;
+     
+    }
+    
+    persName {
+        color:purple;
+    }
+    
+    persName[ana="mentioned"] {
+        color: pink;
+    }
+    orgName{
+    color:fuchsia
+        
+    }
+    placeName{
+        color:blue
+    }
+    span {
+        color: red;
+    }
+}

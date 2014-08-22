@@ -1,0 +1,44 @@
+@media oxygen{
+       fileDesc{
+        unicode-bidi:embed;
+        direction:rtl;
+    } title{
+        color:black
+    }
+    body{
+        unicode-bidi:embed;
+        direction:rtl;
+        color:black
+    }
+    
+    l[ana="a"]{
+    color:aqua
+    }
+    l[ana="b"]{
+    color:blue
+    }
+    l[ana="c"]{
+    color:navy
+    }
+l[ana="d1"]{
+    color:maroon
+    }
+    l[ana="d2"]{
+    color:brown
+    }
+    l[ana="e"]{
+    color:purple
+    }
+    l[ana="f"]{
+    color:fuchsia
+    }
+    [ana="b"]{
+    color:blue
+    }
+    persName{
+        color:black
+    }
+   /* "عمري"{
+        color:green
+    }*/
+    }

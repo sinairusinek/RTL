@@ -1,0 +1,26 @@
+@media oxygen {
+    body {
+        unicode-bidi:embed;
+        direction:rtl;
+     
+    }
+    
+    surname {
+        color:fuchsia;
+    }
+    
+    foreame{
+        color:purple;
+    }
+    genName{color:pink}
+    orgName{
+    color:fuchsia
+        
+    }
+    placeName{
+        color:blue
+    }
+    span {
+        color: red;
+    }
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="/Applications/oxygen/frameworks/tei/xml/tei/css/tei_oxygen.css"?>
+
+<?xml-stylesheet type="text/css" href="cssprosop.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson type="individual">
+            <person>
+               <persName>
+                  <forename>יוסי</forename>
+                  <surname type="patronymic"><nameLink>בן</nameLink> יועזר</surname>
+                  <nameLink>איש</nameLink>
+                  <placeName>צרידה</placeName></persName>
+            </person>
+            <person>
+               <persName>
+                  <forename>הלל</forename>
+                  <genName> הזקן</genName><note>האם זה נכון לאפיין כך את ״הזקן״ (או ׳׳השני׳׳?) במקרה של הלל ושל אחרים? </note></persName>
+            </person>
+         </listPerson>
+         <listOrg type="collective">
+           <org><orgName xml:id="ART2">
+               <persName>זקנים</persName>
+            </orgName></org>
+            <org><orgName xml:id="ART2">
+               <persName>נביאים</persName>
+            </orgName></org>
+            <org><orgName xml:id="ART2">
+               <persName>כנסת הגדולה</persName>
+            </orgName></org>
+            
+            <!-- ... -->
+         </listOrg>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>

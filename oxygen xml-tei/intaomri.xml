@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="/Applications/oxygen/frameworks/tei/xml/tei/css/tei_oxygen.css"?>
+<?xml-stylesheet type="text/css" href="cssarab.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>انت عمري</title>
+         </titleStmt>
+         <publicationStmt>
+            <p> تأليف الشاعر <persName> أحمد شفيق كامل </persName> ألحان <persName>محمد عبد الوهاب
+               </persName>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>غناء كوكب الشرق<persName> أم كلثوم</persName> </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div>
+            <lg type="refrain">
+               <l ana="e">رجعوني عنيك لأيامي اللي راحو </l>
+               <l ana="f">علموني أندم على الماضي وجراحو</l>
+            </lg>
+            <lg type="refrain">
+               <l ana="a">اللي شفتو قبل ما تشوفك عنيه</l>
+               <l ana="b">عمري ضايع يحسبوه إزاي عليّ</l>
+               <l ana="c">انت عمري اللي ابتدي بنورك صباحو </l>
+               <l ana="d1">قد ايه من عمري قبلك راح وعدّى</l>
+            </lg>
+            <lg>
+               <l ana="d2"> يا حبيبي قد ايه من عمري راح </l>
+               <l> ولا شاف القلب قبلك فرحة واحدة </l>
+               <l> ولا داق في الدنيا غير طعم الجراح </l>
+            </lg>
+            <lg>
+               <l> ابتديت دلوقت بس أحب عمري </l>
+               <l> ابتديت دلوقت اخاف لا العمر يجري </l>
+               <l> كل فرحه اشتاقها من قبلك خيالي </l>
+               <l> التقاها في نور عنيك قلبي وفكري </l>
+               <l> يا حياة قلبي يا أغلى من حياتي </l>
+               <l> ليه ما قابلنيش هواك يا حبيبي بدري </l>
+            </lg>
+            <lg type="refrain">
+               <l ana="a"> اللي شفته قبل ما تشوفك عنيه </l>
+               <l ana="b"> عمر ضايع يحسبوه إزاي عليّ </l>
+               <l ana="c"> انت عمري اللي ابتدي بنورك صباحه </l>
+            </lg>
+            <lg><l> الليالي الحلوه والشوق والمحبة </l>
+            <l> من زمان والقلب شايلهم عشانك </l>
+            <l> دوق معايا الحب دوق حبه بحبه </l>
+            <l> من حنان قلبي اللي طال شوقه لحنانك </l>
+            <l> هات عنيك تسرح في دنيتهم عنيه </l>
+            <l> هات ايديك ترتاح للمستهم ايديه </l>
+            <l> يا حبيبي تعالى وكفاية اللي فاتنا </l></lg>
+            <lg type="refrain">
+            <l ana="a"> اللي شفته قبل ما تشوفك عنيه </l>               
+             <l ana="b"> عمري ضايع يحسبوه إزاي عليّ </l>
+             <l ana="c">انت عمري اللي ابتدي بنورك صباحه</l>
+            </lg>
+            <lg><l> خدني لحنانك خدني </l>
+            <l> عن الوجود وابعدني </l>
+            <l> بعيد بعيد أنا وانت </l>
+            <l> بعيد بعيد وحدينا </l>
+            <l> عالحب تصحى أيامنا </l>
+            <l> صالحت بيك ايامي </l>
+            <l> سامحت بيك الزمن </l>
+            <l> نستني بيك آلامي </l>
+            <l> ونسيت معاك الشجن </l></lg>
+            <lg type="refrain">
+               <l ana="e"> رجعوني عنيك لأيامي اللي راحوا </l>
+               <l ana="f"> علموني أندم على الماضي وجراحه </l>
+               <l ana="a"> اللي شفته قبل ما تشوفك عنيه </l>
+               <l ana="c+a">عمري ضاتشوفك عنيهيع <span ana="b">يحسبوه إزاي عليّ</span> </l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>
