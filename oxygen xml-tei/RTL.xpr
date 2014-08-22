@@ -4,5 +4,8 @@
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
         <options/>
     </meta>
-    <projectTree name="mishna.xpr"/>
+    <projectTree name="RTL.xpr">
+        <folder path="."/>
+        <file name="../README.md"/>
+    </projectTree>
 </project>
